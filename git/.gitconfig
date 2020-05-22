@@ -1,3 +1,5 @@
 [user]
 	name = maselelele
 	email = contact@masel.dev
+[include]
+	path = ~/.gitconfig_local
