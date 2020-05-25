@@ -1,5 +1,17 @@
 [user]
 	name = maselelele
 	email = contact@masel.dev
+
+[alias]
+	# Show a fancy graph as git log
+	graph = git log --all --graph --decorate --oneline
+	
+	# Use some verbose outputs
+	branches = branch -a
+	remotes = remote -v
+
+	# Some useful outputs
+	whoami = config user.email
+	
 [include]
 	path = ~/.gitconfig_local
