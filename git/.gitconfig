@@ -4,7 +4,7 @@
 
 [alias]
 	# Show a fancy graph as git log
-	graph = git log --all --graph --decorate --oneline
+	graph = log --all --graph --decorate --oneline
 	
 	# Use some verbose outputs
 	branches = branch -a
