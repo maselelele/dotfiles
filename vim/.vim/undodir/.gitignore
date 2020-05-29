@@ -1,0 +1,5 @@
+# Ignore alle undo files
+*
+
+# Except for the .gitingore
+!.gitignore
