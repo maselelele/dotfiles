@@ -104,3 +104,9 @@ alias zshconfig="vim ~/.zshrc"
 
 # Fix gpg signing failure
 export GPG_TTY=$(tty)
+
+# Run ls after cd
+function chpwd() {
+    emulate -L zsh
+    ls -a   
+}
