@@ -24,6 +24,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'https://github.com/ycm-core/YouCompleteMe.git', { 'do': 'python ~/.vim/plugged/YouCompleteMe/install.py -all' }
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 call plug#end()
 
 autocmd vimenter * colorscheme gruvbox
