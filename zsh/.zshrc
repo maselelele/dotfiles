@@ -75,7 +75,12 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+# Source oh-my-zsh
 source $ZSH/oh-my-zsh.sh
+
+# Source the key bindings file for fzf
+source ./key-bindings.zsh
+
 
 # User configuration
 
