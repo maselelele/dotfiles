@@ -79,8 +79,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Source the key bindings file for fzf
-source ./key-bindings.zsh
-
+source "$HOME/.dotfiles/zsh/key-bindings.zsh"
 
 # User configuration
 
