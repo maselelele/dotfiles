@@ -33,3 +33,6 @@ call plug#end()
 autocmd vimenter * colorscheme gruvbox
 set background=dark
 
+" Auto close YouCompleteMe preview after completion
+let g:ycm_autoclose_preview_window_after_completion = 1
+
