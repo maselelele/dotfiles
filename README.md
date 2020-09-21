@@ -1,5 +1,9 @@
 # DOTFILES
 
+### Requirements
+* **[Stow](https://www.gnu.org/software/stow/)**
+* **[Git](https://git-scm.com/)** 
+
 ### Usage
 **Link**
 * Clone this repository using `git clone --recurse-submodules https://github.com/maselelele/dotfiles.git .dotfiles` into your **home** directory
